@@ -1,3 +1,4 @@
+import Timer from "@/components/others/Timer";
 import { NewsItem } from "@/types/news";
 import Image from "next/image";
 
@@ -20,6 +21,7 @@ const NewsDetailsPage =  async ({ params }: { params: { id: string } }) => {
       )
   return (
     <section className="py-12">
+      <Timer/>
       <article className="max-w-4xl mx-auto p-6 shadow-md border rounded-lg">
         {post?.imageUrl && (
           <div>

@@ -3,6 +3,7 @@ import { Button } from "../ui/button";
 import Image from "next/image";
 
 import bannerImg from "@/assests/banner.jpg"
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -31,7 +32,10 @@ const Banner = () => {
             up from around 100 million in March of this year — used its services
             each month as of June.
           </p>
-          <Button variant="default">Read More</Button>
+          <div>
+
+          <Link className="bg-gray-900 p-2 text-white/85" target="_blank" href={'https://www.cpmrevenuegate.com/qxsd4k0bu?key=ea8d06783014f958ec294dda962c861b'}>Read More</Link>
+          </div>
         </div>
       </div>
     </div>
